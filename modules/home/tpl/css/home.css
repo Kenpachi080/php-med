@@ -1,0 +1,75 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.col-md-6 {
+    display: flex !important;
+    align-items: center!important;
+    justify-content: center!important;
+}
+.row label {
+    font-size: 20px;
+    margin-right: 20px;
+}
+.row {
+    padding: 10px;
+    max-width: 1200px;
+    margin: 0px auto !important;
+}
+.date_input {
+    padding: 6px 12px !important;
+    height: auto !important;
+    border-radius: 4px;
+}
+.popup {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(0, 0, 0, 0.47);
+}
+.close {
+    opacity: 1 !important;
+    font-size: 36px;
+    position: absolute;
+    top: 0%;
+    right: 3%;
+    color: red;
+}
+#incident {
+    font-size: 24px;
+}
+.close:hover {
+    color: red !important;
+}
+#popup_time {
+    font-size: 18px;
+}
+.popup_content {
+    overflow: scroll;
+    padding: 10px;
+    background: white;
+    width: 70%;
+    height: 70%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.popup-flex {
+    flex-direction: column;
+    align-items: flex-start !important;
+}
+.job {
+    margin: 15px;
+}
+
+.contact {
+    display: inline-flex;
+    align-items: center;
+}

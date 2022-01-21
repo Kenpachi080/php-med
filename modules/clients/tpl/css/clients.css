@@ -1,0 +1,30 @@
+.w33 {
+    max-width: 33.3% !important;
+}
+.center {
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.red {
+    color: red;
+}
+.align-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px black solid;
+    width: 100%;
+    border-bottom: 0px;
+}
+.align-center div {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+}
+.header_flex{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}

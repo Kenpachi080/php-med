@@ -1,0 +1,15 @@
+body {
+    margin: 0
+}
+
+.site-header {
+    background: rgba(0, 0, 0, .85);
+}
+.site-header a {
+    text-decoration: none;
+    color: grey;
+    transition: 0.2s;
+}
+.site-header a:hover {
+    color: white;
+}

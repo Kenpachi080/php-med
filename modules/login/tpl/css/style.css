@@ -1,0 +1,22 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    margin: auto;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.exception {
+    color: red;
+    margin: 10px;
+    text-align: center;
+}
+.icon-bar {
+    display: none !important;
+}
